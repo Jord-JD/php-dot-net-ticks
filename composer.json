@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-4": {
-      "DivineOmega\\DotNetTicks\\": "src/"
+      "JordJD\\DotNetTicks\\": "src/"
     }
   },
   "license": "LGPL-3.0-only",

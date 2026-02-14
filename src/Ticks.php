@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\DotNetTicks;
+namespace JordJD\DotNetTicks;
 
 use Carbon\Carbon;
 use DateTime;

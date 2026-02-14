@@ -1,7 +1,7 @@
 <?php
 
 use Carbon\Carbon;
-use DivineOmega\DotNetTicks\Ticks;
+use JordJD\DotNetTicks\Ticks;
 use PHPUnit\Framework\TestCase;
 
 class DotNetTicksTest extends TestCase

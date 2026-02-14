@@ -41,7 +41,7 @@ If you have never used the Composer dependency manager before, head to the [Comp
 First you need to create a new `Ticks` object. This can be done in several ways.
 
 ```php
-use DivineOmega\DotNetTicks\Ticks;
+use JordJD\DotNetTicks\Ticks;
 
 // Current time
 $ticks = new Ticks();
