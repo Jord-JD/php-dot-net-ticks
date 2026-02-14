@@ -1,7 +1,6 @@
 <?php
 
 use Carbon\Carbon;
-use DateTime;
 use DivineOmega\DotNetTicks\Ticks;
 use PHPUnit\Framework\TestCase;
 
@@ -39,7 +38,7 @@ class DotNetTicksTest extends TestCase
     {
         $ticksValue = 636536021491253348;
 
-        $expected = new DateTime('@1518005349');
+        $expected = new \DateTime('@1518005349');
         $dateTime = (new Ticks($ticksValue))->datetime();
 
         $this->assertEquals($expected, $dateTime);

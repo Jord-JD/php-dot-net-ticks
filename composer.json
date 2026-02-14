@@ -9,9 +9,7 @@
     }
   ],
   "require-dev": {
-    "phpunit/phpunit": "^5.7",
-    "fzaninotto/faker": "^1.6",
-    "satooshi/php-coveralls": "^2.0"
+    "phpunit/phpunit": "^9.6"
   },
   "autoload": {
     "psr-4": {
@@ -20,7 +18,7 @@
   },
   "license": "LGPL-3.0-only",
   "require": {
-    "nesbot/carbon": "^1.22"
+    "nesbot/carbon": "^2.0"
   },
   "replace": {
     "divineomega/php-dot-net-ticks": "self.version"
