@@ -1,8 +1,8 @@
 
 # ⏱ PHP .NET Ticks
 
-[![Build Status](https://travis-ci.org/DivineOmega/php-dot-net-ticks.svg?branch=master)](https://travis-ci.org/DivineOmega/php-dot-net-ticks)
-[![Coverage Status](https://coveralls.io/repos/github/DivineOmega/php-dot-net-ticks/badge.svg?branch=master)](https://coveralls.io/github/DivineOmega/php-dot-net-ticks?branch=master)
+[![Build Status](https://travis-ci.org/Jord-JD/php-dot-net-ticks.svg?branch=master)](https://travis-ci.org/Jord-JD/php-dot-net-ticks)
+[![Coverage Status](https://coveralls.io/repos/github/Jord-JD/php-dot-net-ticks/badge.svg?branch=master)](https://coveralls.io/github/Jord-JD/php-dot-net-ticks?branch=master)
 [![StyleCI](https://styleci.io/repos/120622320/shield?branch=master)](https://styleci.io/repos/120622320)
 
 This package helps PHP developers work with and convert .NET ticks, a form of precise time measurement used by the .NET `DateTime` object.
@@ -31,7 +31,7 @@ You can use this library to do the following, and more.
 The PHP .NET Ticks package can be easily installed using Composer. Just run the following command from the root of your project.
 
 ```
-composer require divineomega/php-dot-net-ticks
+composer require jord-jd/php-dot-net-ticks
 ```
 
 If you have never used the Composer dependency manager before, head to the [Composer website](https://getcomposer.org/) for more information on how to get started.
