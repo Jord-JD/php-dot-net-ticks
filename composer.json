@@ -9,7 +9,7 @@
     }
   ],
   "require-dev": {
-    "phpunit/phpunit": "^9.6"
+    "phpunit/phpunit": "^7.5 || ^9.6 || ^10.5 || ^11.5 || ^12.0"
   },
   "autoload": {
     "psr-4": {
@@ -18,14 +18,20 @@
   },
   "license": "LGPL-3.0-only",
   "require": {
-    "nesbot/carbon": "^2.0"
+    "php": ">=7.1",
+    "nesbot/carbon": "^2.0 || ^3.0"
   },
   "replace": {
     "divineomega/php-dot-net-ticks": "self.version"
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "2.0-dev"
+      "dev-master": "2.x-dev"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "kylekatarnls/update-helper": false
     }
   }
 }

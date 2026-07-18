@@ -4,7 +4,7 @@ use Carbon\Carbon;
 use JordJD\DotNetTicks\Ticks;
 use PHPUnit\Framework\TestCase;
 
-class DotNetTicksTest extends TestCase
+class TickTest extends TestCase
 {
     public function testGetTicksFromCurrentTime()
     {

@@ -1,8 +1,7 @@
 
 # ⏱ PHP .NET Ticks
 
-[![Build Status](https://travis-ci.org/Jord-JD/php-dot-net-ticks.svg?branch=master)](https://travis-ci.org/Jord-JD/php-dot-net-ticks)
-[![Coverage Status](https://coveralls.io/repos/github/Jord-JD/php-dot-net-ticks/badge.svg?branch=master)](https://coveralls.io/github/Jord-JD/php-dot-net-ticks?branch=master)
+[![Tests](https://github.com/Jord-JD/php-dot-net-ticks/actions/workflows/tests.yml/badge.svg)](https://github.com/Jord-JD/php-dot-net-ticks/actions/workflows/tests.yml)
 
 This package helps PHP developers work with and convert .NET ticks, a form of precise time measurement used by the .NET `DateTime` object.
 
